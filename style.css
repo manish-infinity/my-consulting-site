@@ -182,6 +182,31 @@ h2 {
     line-height: 1.5;
 }
 
+/* Case Studies Grid */
+.case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.case-study-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.case-study-card h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+    color: #00427f;
+}
+
+.case-study-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
 /* Contact Section */
 .contact-section p {
     text-align: center;
