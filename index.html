@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish – Managing Consultant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="brand">Manish</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#capabilities">Capabilities</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Hello, I'm Manish</h1>
+            <p class="subtitle">Managing Consultant &amp; Strategy Partner</p>
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section light-bg">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a managing consultant dedicated to helping organisations unlock growth and optimise performance. With years of experience advising CXOs across industries, I blend deep analytical rigour with creative problem‑solving to deliver breakthrough results. My practice spans strategic planning, digital transformation, change management and operational excellence, ensuring that my clients are always future‑ready.</p>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section id="capabilities" class="section dark-bg">
+        <div class="container">
+            <h2>Capabilities</h2>
+            <div class="capabilities-grid">
+                <div class="capability-item">
+                    <h3>Strategic Planning</h3>
+                    <p>Crafting data‑driven strategies that align vision, resources and execution.</p>
+                </div>
+                <div class="capability-item">
+                    <h3>Digital Innovation</h3>
+                    <p>Guiding organisations through digital transformation and emerging technologies.</p>
+                </div>
+                <div class="capability-item">
+                    <h3>Process Optimization</h3>
+                    <p>Redesigning processes to maximise efficiency, quality and customer experience.</p>
+                </div>
+                <div class="capability-item">
+                    <h3>Change Management</h3>
+                    <p>Enabling smooth transitions and organisational adoption through tailored change programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section light-bg">
+        <div class="container">
+            <h2>Highlighted Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Digital Transformation for a Manufacturing Giant</h3>
+                    <p>Designed and executed a comprehensive digital roadmap that streamlined operations and increased productivity by 25%. The engagement spanned enterprise resource planning (ERP) deployment, automation of manual workflows and capability building for the client’s leadership team.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Operating Model Redesign for a Financial Institution</h3>
+                    <p>Reimagined the organisational structure and operating model for a leading bank, resulting in a simplified hierarchy and faster decision cycles. Delivered a scalable framework that enabled the institution to respond rapidly to market disruptions.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Market Expansion Strategy for a Technology Start‑up</h3>
+                    <p>Developed a go‑to‑market strategy that identified new customer segments and geographic markets. The strategic plan drove a 40% increase in revenue within the first year and positioned the start‑up for sustained growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section dark-bg contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you would like to discuss how I can help your organisation achieve its goals, please get in touch.</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:manish@example.com">manish@example.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/manish" target="_blank" rel="noopener">linkedin.com/in/manish</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Manish – Managing Consultant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Update the footer year dynamically
+        document.addEventListener('DOMContentLoaded', () => {
+            const yearSpan = document.getElementById('year');
+            yearSpan.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
